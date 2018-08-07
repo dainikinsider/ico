@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'dainikinsider';
+  src:  url('fonts/dainikinsider.eot?2byyr9');
+  src:  url('fonts/dainikinsider.eot?2byyr9#iefix') format('embedded-opentype'),
+    url('fonts/dainikinsider.ttf?2byyr9') format('truetype'),
+    url('fonts/dainikinsider.woff?2byyr9') format('woff'),
+    url('fonts/dainikinsider.svg?2byyr9#dainikinsider') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dainikinsider' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dii-lock_o:before {
+  content: "\e900";
+}
+.dii-lock_f:before {
+  content: "\e901";
+  color: #157efb;
+}
+.dii-bookmark:before {
+  content: "\e903";
+}
+.dii-blogger:before {
+  content: "\e904";
+}
+.dii-tumbler:before {
+  content: "\e905";
+}
+.dii-share:before {
+  content: "\e906";
+}
+.dii-pintrest:before {
+  content: "\e907";
+}
+.dii-google-plus:before {
+  content: "\e908";
+}
+.dii-linkedin:before {
+  content: "\e909";
+}
+.dii-twitter:before {
+  content: "\e90a";
+}
+.dii-instagram:before {
+  content: "\e90b";
+}
+.dii-whatsapp:before {
+  content: "\e90c";
+}
+.dii-facebook:before {
+  content: "\e90d";
+}
