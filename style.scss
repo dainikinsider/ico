@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2byyr9');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2byyr9#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2byyr9') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2byyr9') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2byyr9##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?g1gto1');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?g1gto1#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?g1gto1') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?g1gto1') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?g1gto1##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,11 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.dii-polar_bear {
+  &:before {
+    content: $dii-polar_bear; 
+  }
+}
 .dii-lock_o {
   &:before {
     content: $dii-lock_o; 
