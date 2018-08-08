@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dainikinsider';
-  src:  url('fonts/dainikinsider.eot?pwmk79');
-  src:  url('fonts/dainikinsider.eot?pwmk79#iefix') format('embedded-opentype'),
-    url('fonts/dainikinsider.ttf?pwmk79') format('truetype'),
-    url('fonts/dainikinsider.woff?pwmk79') format('woff'),
-    url('fonts/dainikinsider.svg?pwmk79#dainikinsider') format('svg');
+  src:  url('fonts/dainikinsider.eot?vht45m');
+  src:  url('fonts/dainikinsider.eot?vht45m#iefix') format('embedded-opentype'),
+    url('fonts/dainikinsider.ttf?vht45m') format('truetype'),
+    url('fonts/dainikinsider.woff?vht45m') format('woff'),
+    url('fonts/dainikinsider.svg?vht45m#dainikinsider') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,8 +24,8 @@ font-size:1rem;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.dii-polar_bear:before {
-  content: "\e902";
+.dii-polar-bear:before {
+  content: "\e90f";
 }
 .dii-bookmark:before {
   content: "\e903";
@@ -39,7 +39,7 @@ font-size:1rem;
 .dii-share:before {
   content: "\e906";
 }
-.dii-pinterest:before {
+.dii-pintrest:before {
   content: "\e907";
 }
 .dii-google-plus:before {
@@ -69,6 +69,6 @@ font-size:1rem;
 .dii-envelope:before {
   content: "\e902";
 }
-.dii-search:before {
-  content: "\e986";
+.dii-search2:before {
+  content: "\e901";
 }

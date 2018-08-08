@@ -1,2 +1,0 @@
-# ico
-dainikinsider icons
