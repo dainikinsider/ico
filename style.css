@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dainikinsider';
-  src:  url('fonts/dainikinsider.eot?g1gto1');
-  src:  url('fonts/dainikinsider.eot?g1gto1#iefix') format('embedded-opentype'),
-    url('fonts/dainikinsider.ttf?g1gto1') format('truetype'),
-    url('fonts/dainikinsider.woff?g1gto1') format('woff'),
-    url('fonts/dainikinsider.svg?g1gto1#dainikinsider') format('svg');
+  src:  url('fonts/dainikinsider.eot?pwmk79');
+  src:  url('fonts/dainikinsider.eot?pwmk79#iefix') format('embedded-opentype'),
+    url('fonts/dainikinsider.ttf?pwmk79') format('truetype'),
+    url('fonts/dainikinsider.woff?pwmk79') format('woff'),
+    url('fonts/dainikinsider.svg?pwmk79#dainikinsider') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,16 +24,6 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.dii-polar_bear:before {
-  content: "\e902";
-}
-.dii-lock_o:before {
-  content: "\e900";
-}
-.dii-lock_f:before {
-  content: "\e901";
-  color: #157efb;
-}
 .dii-bookmark:before {
   content: "\e903";
 }
@@ -66,4 +56,16 @@ i {
 }
 .dii-facebook:before {
   content: "\e90d";
+}
+.dii-close:before {
+  content: "\e900";
+}
+.dii-lock:before {
+  content: "\e90e";
+}
+.dii-envelope:before {
+  content: "\e902";
+}
+.dii-search:before {
+  content: "\e986";
 }
