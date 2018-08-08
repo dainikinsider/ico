@@ -18,12 +18,25 @@ i {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
+font-size:2rem;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
+=======
+.dii-polar_bear:before {
+  content: "\e902";
+}
+.dii-lock_o:before {
+  content: "\e900";
+}
+.dii-lock_f:before {
+  content: "\e901";
+  
+}
+>>>>>>> 772e0f0ef460eda29a8263849112097d094a1ba9
 .dii-bookmark:before {
   content: "\e903";
 }
